@@ -1,7 +1,7 @@
-%Homework 2 - Empirical Macro I
+%%Empirical Macro I
 clear
 path(path,'U:\EmpMJS');
-X=xlsread('U:\EmpMJS\DatasetHomeworkII.xls','Dataset','A17:K552');
+X=xlsread('U:...DatasetII.xls','Dataset','A17:K552');
 [T,N]=size(X);
 Time=X(2:T,1);
 

@@ -1,7 +1,7 @@
-%% Empirical Macro - Homework IV Jonas Schwery
+%% Empirical Macro 
 clear
-path(path,'C:\Users\Jonas Schwery\Desktop\Studium\EmpiricalMacro');
-[X,B]=xlsread('C:\Users\Jonas Schwery\Desktop\Studium\EmpiricalMacro\DatasetHomeworkIV.xls','Dataset','A17:F238');
+path(path,'C:...\EmpiricalMacro');
+[X,B]=xlsread('C:...DatasetIV.xls','Dataset','A17:F238');
 [T,N]=size(X);
 Time=X(2:T,1);
 % The log difference of the real gross domestic product
@@ -524,7 +524,7 @@ while xx<=N
     xx=xx+1;
 end
 
-%% Now the same for Shock 2
+%% Shock 2
 IdentifiedShocks=2;
 CounterfactualX2=zeros(T,N,NN);
 CounterfactualMinusActualX2=zeros(T,N,NN);
@@ -640,7 +640,7 @@ while xx<=N
 end
 
 
-%% Now for the 3th shock
+%% 3th shock
 IdentifiedShocks=3;
 CounterfactualX3=zeros(T,N,NN);
 CounterfactualMinusActualX3=zeros(T,N,NN);
@@ -756,7 +756,7 @@ while xx<=N
     xx=xx+1;
 end
 
-%% Now the 4th shock
+%% 4th shock
 IdentifiedShocks=4;
 CounterfactualX4=zeros(T,N,NN);
 CounterfactualMinusActualX4=zeros(T,N,NN);
@@ -873,7 +873,7 @@ while xx<=N
 end
 
 
-%% Now the 5th shock
+%% 5th shock
 
 IdentifiedShocks=5;
 CounterfactualX5=zeros(T,N,NN);

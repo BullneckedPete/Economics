@@ -1,7 +1,7 @@
-%%Homework 2 - Jonas Schwery
+%%EmpiricalMacro I
 clear
-path(path,'C:\Users\Jonas Schwery\Desktop\Studium\EmpiricalMacro');
-[X,B]=xlsread('C:\Users\Jonas Schwery\Desktop\Studium\EmpiricalMacro\DatasetHomeworkIII.xls','MonthlyData','A18:J343');
+path(path,'C:...\EmpiricalMacro');
+[X,B]=xlsread('C:...\DatasetIII.xls','MonthlyData','A18:J343');
 [T,N]=size(X);
 Time=X(2:T,1);
 

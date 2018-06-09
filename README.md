@@ -1,2 +1,3 @@
-# Economics
-Time series analysis with macroeconomic data
+# Econometrics
+
+Some time series analysis with macroeconomic data.
